@@ -19,7 +19,6 @@
       >
          
       </Article>
-      <!-- <VPagination :pages="pages" :currentPage.sync="currentPage" /> -->
     </div>
   </div>
 </template>
@@ -27,8 +26,7 @@
 <script>
 import { mapGetters } from "vuex";
 import Article from "@/components/Article";
-// import VPagination from "./VPagination";
-//import { FETCH_ARTICLES } from "../store/actions.type";
+
 const FETCH_ARTICLES = "fetchArticles";
 
 export default {
@@ -45,20 +43,8 @@ export default {
     author: {
       type: String,
       required: false
-    },
-    // tag: {
-    //   type: String,
-    //   required: false
-    // },
-    // favorited: {
-    //   type: String,
-    //   required: false
-    // },
-    // itemsPerPage: {
-    //   type: Number,
-    //   required: false,
-    //   default: 10
-    // }
+    }
+    
   },
   data() {
     return {

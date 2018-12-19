@@ -34,7 +34,7 @@
 
 <script>
 import { mapState } from "vuex";
-//import { LOGIN } from "@/store/actions.type";
+
 const LOGIN = "login";
 export default {
   name: "Login",

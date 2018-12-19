@@ -68,9 +68,6 @@
 
 <script>
 import { mapGetters } from "vuex";
-//import store from "@/store";
-//import RwvListErrors from "@/components/ListErrors";
-
 
 export default {
   name: "Write",

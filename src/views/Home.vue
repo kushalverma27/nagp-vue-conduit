@@ -44,25 +44,14 @@
 </template>
 
 <script>
-//import { mapGetters } from "vuex";
-//import RwvTag from "@/components/VTag";
-//import { FETCH_TAGS } from "@/store/actions.type";
+
 import ArticleList from "@/components/ArticleList";
 
 export default {
   name: "home",
   components: {
     ArticleList
-  //  RwvTag
   }
-//   mounted() {
-//     this.$store.dispatch(FETCH_TAGS);
-//   }
-//   computed: {
-//     ...mapGetters(["isAuthenticated", "tags"]),
-//     tag() {
-//       return this.$route.params.tag;
-//     }
-//   }
+
 };
 </script>

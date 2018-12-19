@@ -34,7 +34,7 @@
 
 <script>
 import { mapGetters } from "vuex";
-//import { COMMENT_DESTROY } from "@/store/actions.type";
+
 
 export default {
   name: "Comment",

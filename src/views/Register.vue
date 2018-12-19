@@ -42,7 +42,7 @@
 
 <script>
 import { mapState } from "vuex";
-//import { LOGIN } from "@/store/actions.type";
+
 
 export default {
   name: "Register",
